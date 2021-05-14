@@ -38,6 +38,10 @@ class BreweryClientTest {
                 .beerName("New Beer")
                 .build();
         client.updateBeer(UUID.randomUUID(),newBeer);
+    }
+    @Test
+    void testDeleteBeer(){
 
+        client.deleteBeer(UUID.randomUUID());
     }
 }
