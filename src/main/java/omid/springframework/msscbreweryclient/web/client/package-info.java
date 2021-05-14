@@ -1,0 +1,1 @@
+package omid.springframework.msscbreweryclient.web.client;
